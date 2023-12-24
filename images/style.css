@@ -1,0 +1,373 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url('imgstp.jpg'); /* Replace with the path to your background image */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  flex-direction:  column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 50px 0;
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: white;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.feature {
+  flex: 0 1 30%;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Add additional styles as needed */
+
+/* ... (previously defined styles) ... */
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #2077b4;
+}
+
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  .features {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .feature {
+      flex: 0 1 80%;
+  }
+}
+
+/* ... (previously defined styles) ... */
+
+#logo {
+  max-width: 100px; /* Adjust the max-width as needed */
+  height: auto;
+  margin-bottom: 20px;
+
+}
+
+/* ... (previously defined styles) ... */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 20px 7%;
+}
+
+nav img { 
+  height: 40px;
+  }
+nav a {
+  color:#fff;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+}  
+button{
+  background-color: aqua;
+}
+
+head h1 {
+  font-size: 85px;
+  margin: top 180px;
+  font-weight: 500;
+}
+
+head p {
+  font-size: 20px;
+  margin: 0.5rem 0;
+}
+
+header h1 {
+  font-size: 85px;
+  margin-top: 180px;
+  font-weight: 500;
+}
+
+header p {
+  font-size: 20px;
+  margin: 0.5rem 0;
+  margin-top: 20px;
+
+}
+
+header a.cta {
+  background-color: #fff;
+  border: 1px solid #333;
+  color: #333;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 60px;
+  margin-top: 1rem;
+  transition: all 0.2s;
+}
+
+/* ... (previous code) ... */
+
+.feature {
+  width: 30%;
+  display: inline-block;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+/* ... (previous code) ... */
+
+.feature img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* ... (previous code) ... */
+
+
+#features {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.feature h3{
+  margin-bottom: 1rem;
+  
+}
+
+/* ... (previous code) ... */
+
+#about {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#about h2 {
+  color: #333;
+}
+
+#about p {
+  margin-bottom: 30px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  flex: 0 1 30%;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.team-member img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* ... (previous code) ... */
+
+/* ... (previous code) ... */
+
+#team {
+  background-color: #f4f4f4;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#team h2 {
+  color: #333;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  flex: 0 1 30%;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.team-member img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* ... (previous code) ... */
+
+
+/* ... (previous code) ... */
+
+#contact {
+  background-color: #fafafa;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#contact h2 {
+  color: #333;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.contact-item {
+  flex: 0 1 30%;
+  text-align: left;
+  margin: 10px;
+}
+
+.contact-item img {
+  max-width: 30px;
+  margin-right: 10px;
+}
+
+/* ... (previous code) ... */
+
+.horizontal-list {
+  list-style: none; /* Remove default list styles */
+  padding: 0;
+  background-color: aqua;
+  height: 40px;
+  width: 95%;
+  color: orange;
+}
+
+.horizontal-list li {
+  display: inline-block;
+  margin-right: 10px; /* Adjust as needed for spacing */
+  
+}
+
+
+
+/* ... (previous code) ... */
+
+section.features {
+  text-align: center;
+}
+
+section.features h2 {
+  font-size: 36px; /* Adjust the font size as needed */
+  color: #333; /* Adjust the color as needed */
+  margin-bottom: 20px;
+  text-transform: uppercase; /* Convert text to uppercase */
+  letter-spacing: 2px; /* Add some letter spacing */
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.feature {
+  flex: 0 1 30%;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.feature h3 {
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+
+
+
+
+
+
+
+
